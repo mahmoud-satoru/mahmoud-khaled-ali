@@ -12,7 +12,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: #260164;
 }
 
 
@@ -92,9 +92,7 @@ footer{
 main{
     width: 100%;
     height: 90vh;
-
-    background: #020024;
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 45%, rgba(255, 255, 255, 1) 100%);
+    background: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,18 +107,13 @@ footer p{
     font-weight: 300;
      font-family: 'Open Sans';
      letter-spacing: 2px;
-     color: rgb(38, 0, 255);
+     color: #fff;
      
 }
 
 form{
-    border-radius: 50px;
-
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(15px);
-    border: 1px solid rgba(253, 253, 253, 0.748);
-
-
+    border-radius: 20px;
+    border: 2px solid rgb(28, 3, 125);
     width: 90%;
     height: 80vh;
     display: flex;
@@ -129,6 +122,7 @@ form{
     justify-content: space-between;
     padding: 10px 0px;
     box-sizing: border-box;
+    padding-top: 20px;
 }
 
 
@@ -137,10 +131,10 @@ form input{
     height: 30px;
     margin-top: 20px;
     background: #00000000;
-    border-bottom: #fff 1px solid;
+    border-bottom: rgb(28, 3, 125) 1px solid; 
     box-sizing: border-box;
     padding: 10px;
-    color: #fff;
+    color: rgb(28, 3, 125);
     font-size: 15px;
     font-weight: 400;
     font-family: 'Open Sans';
@@ -151,7 +145,7 @@ form label{
     font-size: 20px;
     font-weight: 400;
     font-family: 'Open Sans';
-    color: #ffffff;
+    color:rgb(28, 3, 125);
 }
 
 .inp{
@@ -167,11 +161,11 @@ form label{
 textarea{resize: none;
 width: 90%;
 height: 50px;
-border: 1px solid #fff;
+border-bottom: 1px solid rgb(28, 3, 125);
 background: #00000000;
 box-sizing: border-box;
 padding: 10px;
-color: #fff;
+color:  rgb(28, 3, 125);
 font-size: 15px;
 font-weight: 400;
 font-family: 'Open Sans';
@@ -191,8 +185,9 @@ font-family: 'Open Sans';
 .bot button{
     width: 300px;
     height:50px ;
-    background-color: #ffffff;
-    color: #260164;
+    background-color: #260164;
+    color: #fff;
+    border: #260164 2px solid;
     border-radius:40px ;
     display: flex;
     justify-content: center;
@@ -200,6 +195,7 @@ font-family: 'Open Sans';
     font-size: 20px;
     font-weight: 400;
     font-family: 'Open Sans';
+    transition-duration: 0.5s;
 }
     
 
@@ -223,7 +219,7 @@ font-family: 'Open Sans';
     height:50px ;
     background-color: #260164;
     color: #f0f0f0;
-    border: #ffffff 1px solid;
+    border: #260164 2px solid;
     border-radius:40px ;
     display: flex;
     justify-content: center;
